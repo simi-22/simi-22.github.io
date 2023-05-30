@@ -5,11 +5,9 @@ em, i, address{font-style: normal;}
 
 
 @font-face{
-    src:url("../font/NanumFontSetup_OTF_MYUNGJO/NanumMyeongjo.otf");
-    font-family : "Nanum Myeongjo";
-   }
-   #NanumMyeongjo_font{
-    font-family : "Nanum Myeongjo";
+    src:url("../font/NanumFontSetup_OTF_MYUNGJO/NanumMyeongjo.otf") format('woff'),
+        url("../font/NanumFontSetup_OTF_MYUNGJO/NanumMyeongjo.otf") format('woff2');
+    font-family : "nanummyeongjo";
    }
 
 #welcome-box{
