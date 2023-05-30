@@ -156,6 +156,7 @@ em, i, address{font-style: normal;}
     position: absolute;
     top: 80%;
     left: 50%;
+    margin-left: -25px;
     font-size: 12px;
     opacity: 0;
     transition: 1s;
