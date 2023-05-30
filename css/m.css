@@ -1,9 +1,170 @@
-*{padding: 0; margin: 0;}
+*{padding: 0; margin: 0; font-family: nanummyeongjo;}
 li{list-style: none;}
 a{text-decoration: none; color: inherit;}
 em, i, address{font-style: normal;}
 
-div.sea-bg{
-    width: 100vw;
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
+}
+
+#sea-bg{
+    display: flex;
+    position: relative;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    background-color: #131318;
+}
+#sea-bg video{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#sea-bg video:nth-of-type(2){
+    display: none;
     height: 100vh;
+}
+#sea-bg div.bg-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 10, 10, 0.7);
+    
+}
+#sea-bg p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    content: "";
+    background-color: #fff;
+    box-shadow: 0px 0px 1.8px 1.8px #fff8b5;
+    border-radius: 50px;
+    animation: blink 2s ease infinite;
+
+}
+
+#sea-bg p:first-of-type{
+    width: 2px;
+    height: 2px;
+    top: 20%;
+    left: 10%;
+    animation: blink 3s ease infinite;
+}
+#sea-bg p:nth-of-type(2){
+    width: 1px;
+    height: 1px;
+    top: 30%;
+    left: 40%;
+    animation: blink 5s ease infinite;
+}
+#sea-bg p:nth-of-type(3){
+    width: 3px;
+    height: 3px;
+    top: 10%;
+    left: 32%;
+    animation: blink 2.5s ease infinite;
+}
+#sea-bg p:nth-of-type(4){
+    width: 2px;
+    height: 2px;
+    top: 20%;
+    left: 50%;
+    animation: blink 3.7s ease infinite;
+}
+#sea-bg p:nth-of-type(5){
+    width: 4px;
+    height: 4px;
+    top: 27%;
+    left: 70%;
+    animation: blink 1.8s ease infinite;
+}
+#sea-bg p:nth-of-type(6){
+    width: 1px;
+    height: 1px;
+    top: 10%;
+    left: 77%;
+    animation: blink 2.4s ease infinite;
+}
+#sea-bg p:nth-of-type(7){
+    width: 4px;
+    height: 4px;
+    top: 15%;
+    left: 88%;
+    animation: blink 1.2s ease infinite;
+}
+#sea-bg p:nth-of-type(8){
+    width: 3px;
+    height: 3px;
+    top: 20%;
+    left: 10%;
+    animation: blink 1.8s ease infinite;
+}
+#sea-bg p:nth-of-type(9){
+    top: 30%;
+    left: 15%;
+    animation: blink 3.5s ease infinite;
+}
+#sea-bg p:nth-of-type(10){
+    top: 20%;
+    left: 25%;
+    animation: blink 4s ease infinite;
+}
+#sea-bg p:nth-of-type(11){
+    top: 20%;
+    left: 95%;
+    animation: blink 7s ease infinite;
+}
+#sea-bg p:nth-of-type(12){
+    top: 10%;
+    left: 60%;
+    animation: blink 4.5s ease infinite;
+}
+#sea-bg p:nth-of-type(13){
+    top: 30%;
+    left: 58%;
+    animation: blink 5s ease infinite;
+}
+#sea-bg p:nth-of-type(14){
+    top: 25%;
+    left: 5%;
+    animation: blink 4s ease infinite;
+}
+
+.saying{
+    display: flex;
+    flex-wrap: wrap;
+    width: 390px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -195px;
+    color: #c9c9c9;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+@keyframes blink {
+     0% { opacity: 0;}
+     100% {opacity: 1;}
+     }
+
+
+
+@media all and (max-width:1000px){
+    #sea-bg video:first-of-type{
+        display: none;
+    }
+    #sea-bg video:nth-of-type(2){
+        display: block;
+    }
 }
