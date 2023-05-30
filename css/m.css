@@ -9,6 +9,12 @@ em, i, address{font-style: normal;}
  font-family: 'Nanum Myeongjo', serif;
 }
 
+#welcome-box{
+    width: 100vw;
+    height: 100vh;
+    background: #131318;
+}
+
 #sea-bg{
     display: flex;
     position: relative;
@@ -52,8 +58,8 @@ em, i, address{font-style: normal;}
 #sea-bg p:first-of-type{
     width: 2px;
     height: 2px;
-    top: 20%;
-    left: 10%;
+    top: 10%;
+    left: 5%;
     animation: blink 3s ease infinite;
 }
 #sea-bg p:nth-of-type(2){
@@ -92,8 +98,8 @@ em, i, address{font-style: normal;}
     animation: blink 2.4s ease infinite;
 }
 #sea-bg p:nth-of-type(7){
-    width: 4px;
-    height: 4px;
+    width: 1px;
+    height: 1px;
     top: 15%;
     left: 88%;
     animation: blink 1.2s ease infinite;
@@ -102,7 +108,7 @@ em, i, address{font-style: normal;}
     width: 3px;
     height: 3px;
     top: 20%;
-    left: 10%;
+    left: 80%;
     animation: blink 1.8s ease infinite;
 }
 #sea-bg p:nth-of-type(9){
@@ -125,16 +131,7 @@ em, i, address{font-style: normal;}
     left: 60%;
     animation: blink 4.5s ease infinite;
 }
-#sea-bg p:nth-of-type(13){
-    top: 30%;
-    left: 58%;
-    animation: blink 5s ease infinite;
-}
-#sea-bg p:nth-of-type(14){
-    top: 25%;
-    left: 5%;
-    animation: blink 4s ease infinite;
-}
+
 
 .saying{
     display: flex;
