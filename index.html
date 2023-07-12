@@ -6,12 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>심재은 포트폴리오</title>
     <link href="css/m.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0; 
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        section{
+            position: relative;
+            margin: 20px auto;
+            max-width: 1200px;
+            border: 1px solid black;
+        }
+        #menu{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+            border-bottom: 1px solid black;
+        }
+        #menu li:hover{
+            color:indianred;
+        }
+        main{
+            text-align: center;
+            border-bottom: 1px solid black;
+        }
+        main video{
+            width: 100%;
+        }
+        #footer{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    
+    <h1 align="center"><a href="index.html"><img src="img/img/logo.png" alt="닭갈비축제로고"></a></h1>
+    <section>
+        <header>
+            <ul id="menu">
+                <li><a href="a1.html">춘천소개</a></li>
+                <li><a href="a2.html">사진모음</a></li>
+                <li><a href="a3.html">오시는길</a></li>
+                <li><a href="a4.html">회원가입</a></li>
+            </ul>
+        </header>
+        <main>
+            <video src="img/img/aa.mp4" autoplay loop></video>
+        </main>
+        <div id="footer">춘천직업전문학교 UI/UX 웹퍼블리싱 양성과정 TEL:033-999-4444</div>
+    </section>
+    
+    
+    <!--
     <section id="welcome-box">
         <section id="sea-bg">
             <div class="video-wrap">
-                <video src="img/IMG_9938.MOV" autoplay loop="1" muted playsinline></video><!--playsinline 카카오톡 비디오 전체화면 방지-->
+                <video src="img/IMG_9938.MOV" autoplay loop="1" muted playsinline></video>//playsinline 카카오톡 비디오 전체화면 방지//
                 <video src="img/video_1_eacaa1ac2ca747518510be32ee32e51c.MP4" autoplay loop="1" muted playsinline></video>
             </div>
             <div class="bg-cover"></div>
@@ -31,7 +94,7 @@
         <span>종이배 일러스트</span>
     </section>
 
-    <section id="intro">
+    <section id="intro" style="background-color: tomato;">
         <h1>explore</h1>
         <div class="card-container">
             <div class="profile-button">자동차 모양 소개</div>
@@ -58,6 +121,6 @@
 
 
 
-    <script src="js/m.js"></script>
+    <script src="js/m.js"></script>-->
 </body>
 </html>

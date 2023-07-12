@@ -20,14 +20,12 @@ let typingPrint = setInterval(function(){
 
 
 const welcomeBox = document.querySelector('#welcome-box');
-const intro = document.querySelector('#intro');
 
 
 const welcomeMove = () => {
     welcomeBox.classList.add('transparency')
     setTimeout(function(){
         welcomeBox.classList.add('hidden')
-        intro.classList.add('active')
     },2000)
 }
 

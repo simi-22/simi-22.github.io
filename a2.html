@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0; 
+            padding: 0;
+            box-sizing: border-box;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        section{
+            position: relative;
+            margin: 20px auto;
+            max-width: 1200px;
+            border: 1px solid black;
+        }
+        #menu{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+            border-bottom: 1px solid black;
+        }
+        #menu li:hover{
+            color:indianred;
+        }
+        main{
+            width: 100%;
+        }
+        main p{
+            width: 100%;
+            background-color: yellow;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            border-bottom: 1px solid black;
+        }
+        main table{
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        main table tr{
+            width: 100%;
+        }
+        main table tr td img{
+            width: calc(100%)
+        }
+       
+        #footer{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            border-top: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 align="center"><a href="index.html"><img src="img/img/logo.png" alt="닭갈비축제로고"></a></h1>
+    <section>
+        <header>
+            <ul id="menu">
+                <li><a href="a1.html">춘천소개</a></li>
+                <li><a href="a2.html">사진모음</a></li>
+                <li><a href="a3.html">오시는길</a></li>
+                <li><a href="a4.html">회원가입</a></li>
+            </ul>
+        </header>
+        <main>
+            <p>사진모음</p>
+            <table border="1" style="border-collapse: collapse;">
+                <tr>
+                    <td><img src="img/img/1.jpg" alt="이미지"></td>
+                    <td><img src="img/img/2.jpg" alt="이미지"></td>
+                    <td><img src="img/img/3.jpg" alt="이미지"></td>
+                    <td><img src="img/img/4.jpg" alt="이미지"></td>
+                    <td><img src="img/img/5.jpg" alt="이미지"></td>
+                </tr>
+                <tr>
+                    <td>그림1</td>
+                    <td>그림2</td>
+                    <td>그림3</td>
+                    <td>그림4</td>
+                    <td>그림5</td>
+                </tr>
+                <tr>
+                    <td><img src="img/img/6.jpg" alt="이미지"></td>
+                    <td><img src="img/img/7.jpg" alt="이미지"></td>
+                    <td><img src="img/img/8.jpg" alt="이미지"></td>
+                    <td><img src="img/img/9.jpg" alt="이미지"></td>
+                    <td><img src="img/img/10.jpg" alt="이미지"></td>
+                </tr>
+                <tr>
+                    <td>그림6</td>
+                    <td>그림7</td>
+                    <td>그림8</td>
+                    <td>그림9</td>
+                    <td>그림10</td>
+                </tr>
+            </table>
+        </main>
+        <div id="footer">춘천직업전문학교 UI/UX 웹퍼블리싱 양성과정 TEL:033-999-4444</div>
+    </section>
+    
+</body>
+</html>

@@ -1,4 +1,4 @@
-*{padding: 0; margin: 0; font-family: nanummyeongjo;}
+/**{padding: 0; margin: 0; font-family: nanummyeongjo;}
 li{list-style: none;}
 a{text-decoration: none; color: inherit;}
 em, i, address{font-style: normal;}
@@ -189,9 +189,9 @@ em, i, address{font-style: normal;}
 
 
 #intro{
-    opacity: 0;
+    
     width: 100%;
-    height: 400px;
+    padding-bottom: 20px;
     transition: .5s;
     z-index: 1;
 }
@@ -329,4 +329,4 @@ em, i, address{font-style: normal;}
 }
 .active{
     opacity: 1 !important;
-}
+}*/

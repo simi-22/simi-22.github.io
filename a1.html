@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0; 
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        section{
+            position: relative;
+            margin: 20px auto;
+            max-width: 1200px;
+            border: 1px solid black;
+        }
+        #menu{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            font-size: 20px;
+            border-bottom: 1px solid black;
+        }
+        #menu li:hover{
+            color:indianred;
+        }
+        main{
+            width: 100%;
+            height: 600px;
+        }
+        main p{
+            width: 100%;
+            background-color: green;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            border-bottom: 1px solid black;
+        }
+        main .left-box{
+            float: left;
+            width: 50%;
+            height: calc(100% - 40px);
+            border-right: 1px solid black;
+            box-sizing: border-box;
+        }
+        main .right-top{
+            float: left;
+            width: 50%;
+            height: calc(60% - 20px);
+            border-bottom: 1px solid black;
+            box-sizing: border-box;
+        }
+        main .right-bottom{
+            float: left;
+            width: 50%;
+            height: calc(40% - 20px);
+        }
+        main>div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        main div img{
+            width: 250px;
+        }
+
+        #footer{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            border-top: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 align="center"><a href="index.html"><img src="img/img/logo.png" alt="닭갈비축제로고"></a></h1>
+    <section>
+        <header>
+            <ul id="menu">
+                <li><a href="a1.html">춘천소개</a></li>
+                <li><a href="a2.html">사진모음</a></li>
+                <li><a href="a3.html">오시는길</a></li>
+                <li><a href="a4.html">회원가입</a></li>
+            </ul>
+        </header>
+        <main>
+           <p>춘천소개</p>
+           <div class="left-box"><img src="img/img/10.jpg" alt="이미지1"><div>춘천소개 글 작성 및 사진</div></div>
+           <div class="right-top"><img src="img/img/11.jpg" alt="이미지1"><div>춘천소개 글 작성 및 사진</div></div>
+           <div class="right-bottom"><img src="img/img/12.jpg" alt="이미지1"><div>춘천소개 글 작성 및 사진</div></div>
+        </main>
+        <div id="footer">춘천직업전문학교 UI/UX 웹퍼블리싱 양성과정 TEL:033-999-4444</div>
+    </section>
+    
+</body>
+</html>
